@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Lista empleados</h1>
-
+    <a href="/form/emp">Crear Nuevo Empleado</a>
     <thead>
         <tr>
             <th>id prestamo</th>

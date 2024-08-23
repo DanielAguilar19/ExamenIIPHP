@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Lista Productos</h1>
-
+    <a href="/form/prod">Crear Nuevo Producto</a>
     <thead>
         <tr>
             <th>id</th>

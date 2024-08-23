@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Empleados</title>
+    <title>proveedores</title>
 </head>
 <body>
-    <h1>Lista empleados</h1>
-
+    <h1>Lista proveedores</h1>
+    <a href="/form/prov">Crear Nuevo Prooveedor</a>
     <thead>
         <tr>
-            <th>id prestamo</th>
+            <th>id proveedor</th>
             <th>nombre</th>
-            <th>apellido</th>
-            <th>fecha ingreso</th>
-            <th>salario</th>
+            <th>telefono</th>
+            <th>fecha registro</th>
+            <th>correo</th>
         </tr>
     </thead>
-    @foreach ($empleados as $empleado)
+    @foreach ($proveedores as $proveedor)
         <tr>
             <td>
-                {{ $empleado->id }}
+                {{ $proveedor->id_proveedor }}
             </td>
             <td>
-                {{ $empleado->nombre }}
+                {{ $proveedor->nombre }}
             </td>
             <td>
-                {{ $empleado->apellido }}
+                {{ $proveedor->telefono }}
             </td>
             <td>
-                {{ $empleado->fecha_ingreso }}
+                {{ $proveedor->fecha_registro }}
             </td>
             <td>
-                {{ $empleado->salario }}
+                {{ $proveedor->correo }}
             </td>
         </tr>
     @endforeach
