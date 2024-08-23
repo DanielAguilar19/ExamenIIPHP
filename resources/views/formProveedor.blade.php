@@ -12,7 +12,7 @@
     <form method="POST" action="{{ route('crearProve') }}">
         @csrf
         <input type="text" for="nombre" name="nombre" placeholder="nombre" id="">
-        <input type="text" for="fecha_registro" name="fecha_registro" placeholder="fecha_registro" id="">
+        <input type="text" for="fecha_registro" name="fecha_registro" placeholder="fecha_registro YYY-MM-DD" id="">
         <input type="text" for="telefono" name="telefono" placeholder="telefono" id="">
         <input type="text" for="correo" name="correo" placeholder="correo" id="">
     </form>

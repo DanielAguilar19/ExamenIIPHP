@@ -13,7 +13,7 @@
         @csrf
         <input type="text" for="nombre" name="nombre" placeholder="nombre" id="">
         <input type="text" for="apellido" name="apellido" placeholder="apellido" id="">
-        <input type="text" for="fecha_ingreso" name="fecha_ingreso" placeholder="fecha_ingreso" id="">
+        <input type="text" for="fecha_ingreso" name="fecha_ingreso" placeholder="fecha_ingreso YYY-MM-DD" id="">
         <input type="text" for="salario" name="salario" placeholder="salario" id="">
     </form>
 </body>
