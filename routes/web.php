@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
 //Obtener todos por tabla
 Route::get('/productos', [ProductoController::class, 'getAllProductos'])->name('getProductos');
 Route::get('/empleados', [EmpleadoController::class, 'getAllEmpleados'])->name('getEmpleados');
@@ -19,4 +20,3 @@ Route::get('/form/prov', [ProveedoresController::class, 'getFormProveedores'])->
 Route::post('/producto/crear', [ProductoController::class, 'postFormProductos'])->name('crearProd');
 Route::post('/empleado/crear', [EmpleadoController::class, 'postFormEmpleados'])->name('crearEmp');
 Route::post('/proveedor/crear', [ProveedoresController::class, 'postFormProveedores'])->name('crearProve');
-});
