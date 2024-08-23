@@ -15,6 +15,8 @@
         <input type="text" for="apellido" name="apellido" placeholder="apellido" id="">
         <input type="text" for="fecha_ingreso" name="fecha_ingreso" placeholder="fecha_ingreso YYY-MM-DD" id="">
         <input type="text" for="salario" name="salario" placeholder="salario" id="">
+
+        <button type="submit">enviar</button>
     </form>
 </body>
 </html>

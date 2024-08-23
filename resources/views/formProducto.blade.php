@@ -15,6 +15,8 @@
         <input type="text" for="precio" name="precio" placeholder="precio" id="">
         <input type="text" for="stock" name="stock" placeholder="stock" id="">
         <input type="text" for="pagaisv" name="pagaisv" placeholder="pagaisv" id="">
+        <button type="submit">enviar</button>
+
     </form>
 </body>
 </html>

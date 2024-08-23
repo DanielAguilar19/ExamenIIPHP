@@ -15,6 +15,8 @@
         <input type="text" for="fecha_registro" name="fecha_registro" placeholder="fecha_registro YYY-MM-DD" id="">
         <input type="text" for="telefono" name="telefono" placeholder="telefono" id="">
         <input type="text" for="correo" name="correo" placeholder="correo" id="">
+        <button type="submit">enviar</button>
+
     </form>
 </body>
 </html>
