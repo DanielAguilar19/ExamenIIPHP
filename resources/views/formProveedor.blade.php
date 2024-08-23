@@ -16,7 +16,7 @@
         <input type="text" for="telefono" name="telefono" placeholder="telefono" id="">
         <input type="text" for="correo" name="correo" placeholder="correo" id="">
         <button type="submit">enviar</button>
-
+        
     </form>
 </body>
 </html>
